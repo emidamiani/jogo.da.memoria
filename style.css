@@ -1,9 +1,13 @@
 /* styles.css */
+h1 {
+    color: #ffffff; /* Cor do texto */
+    text-align: center; /* Centralizado horizontalmente */
+    font-size: 36px; /* Tamanho da fonte */
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+
 body {
-    h1 {
-        color: #ffffff; /* Mude para a cor que você quiser */
-        text-align: center; /* Mantém o título centralizado horizontalmente */
-    }    
     font-family: Arial, sans-serif;
     background-color: #471f1fbe;
     margin: 0;
@@ -11,13 +15,6 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center;
-}
-
-h1 {
-    text-align: center;
-    font-size: 36px;
-    margin-top: 20px;
-    margin-bottom: 30px;
 }
 
 .memory-game {
@@ -70,4 +67,20 @@ h1 {
     max-width: 100%;
     max-height: 100%;
     object-fit: cover;
+}
+/* styles.css */
+footer {
+    background-color: #471f1fbe;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    font-size: 14px;
+    box-shadow: 0 -2px 5px rgba(0, 0, 0, 0.2);
+}
+
+footer p {
+    margin: 0;
 }
